@@ -28,7 +28,7 @@ SCENARIOS = {
 SECTORS = [
     "Energy", "Manufacturing", "Real Estate", "Finance",
     "Agriculture", "Transport", "Technology", "Healthcare",
-    "Utilities", "Retail", "Custom"
+    "Utilities", "Retail", "FMCG", "Custom"
 ]
 
 REGIONS = [
@@ -48,6 +48,7 @@ PHYSICAL_RISK = {
     "Healthcare":    {"Flood": 0.05, "Heat Stress": 0.03, "Water Stress": 0.03, "Storm/Wind": 0.04},
     "Utilities":     {"Flood": 0.08, "Heat Stress": 0.07, "Water Stress": 0.11, "Storm/Wind": 0.06},
     "Retail":        {"Flood": 0.06, "Heat Stress": 0.03, "Water Stress": 0.02, "Storm/Wind": 0.05},
+    "FMCG":          {"Flood": 0.07, "Heat Stress": 0.05, "Water Stress": 0.06, "Storm/Wind": 0.05},
     "Custom":        {"Flood": 0.06, "Heat Stress": 0.04, "Water Stress": 0.05, "Storm/Wind": 0.05},
 }
 
@@ -69,6 +70,7 @@ TRANSITION_RISK = {
     "Healthcare":    {"policy": 0.05, "market": 0.04, "technology": 0.05, "reputational": 0.02},
     "Utilities":     {"policy": 0.15, "market": 0.10, "technology": 0.11, "reputational": 0.03},
     "Retail":        {"policy": 0.06, "market": 0.07, "technology": 0.05, "reputational": 0.03},
+    "FMCG":          {"policy": 0.07, "market": 0.08, "technology": 0.05, "reputational": 0.04},
     "Custom":        {"policy": 0.08, "market": 0.07, "technology": 0.06, "reputational": 0.03},
 }
 
